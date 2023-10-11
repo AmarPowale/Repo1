@@ -16,7 +16,10 @@ public class Movie implements Serializable{
 	
 	@Id
 	@Column(name = "MID")
-	private Integer mid;
+	private Integer mid;  
+
+
+	
 	
 	@Column(name = "MNAME", length = 20)
 	private String mname;
